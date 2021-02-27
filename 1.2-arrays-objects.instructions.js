@@ -7,3 +7,18 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let favMovie = {
+    nameOfMovie:'Life is beautiful',
+    runTime:'2 hours',
+    characters:[
+        {name:'Guido', age:'52', items:['jokes', 'wit']},
+        {name: 'Giosue', age:'6', items:['charming', 'hat']}
+    ],
+    genre: 'Comedy Drama'
+}
+console.log(favMovie.nameOfMovie);
+console.log(favMovie.runTime);
+console.log(favMovie.characters);
+console.log(favMovie.characters[0].name);
+console.log(favMovie.characters[0].items[1]);
