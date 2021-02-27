@@ -21,4 +21,4 @@ console.log(favMovie.nameOfMovie);
 console.log(favMovie.runTime);
 console.log(favMovie.characters);
 console.log(favMovie.characters[0].name);
-console.log(favMovie.characters[0].items[1]);
+console.log(favMovie.characters[0].items[1].item2);

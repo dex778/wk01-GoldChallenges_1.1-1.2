@@ -9,23 +9,43 @@
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 // let loop; 
-// for (let i = 0; i <= 10; i++){
-//     console.log(i);
-// }
 
-
-
-function callback(num){
-    for (let i = 0; i <= 10; i++){
-        // console.log(i);
-        if (i % 2 === 0 ){
-            console.log(i, "the number is even")
-        } else  {
-            console.log(i, "the number is odd")
-        }
-    }   
+//FINAL ANSWER:
+for (let i = 0; i <= 10; i++){
+    callback(i);
 }
-callback();
+
+function callback(i){
+    if (i % 2 === 0 ){
+        console.log(i, "the number is even")
+    } else  {
+        console.log(i, "the number is odd")
+    } 
+}
+
+
+
+
+
+
+// callback();
+ 
+
+//Working sample below that needs adjustments
+
+// function callback(num){
+//     for (let i = 0; i <= 10; i++){
+//         // console.log(i);
+//         if (i % 2 === 0 ){
+//             console.log(i, "the number is even")
+//         } else  {
+//             console.log(i, "the number is odd")
+//         }
+//     }   
+// }
+// callback();
+//Working sample that needs adjustments
+
 
 // if (i / 2 === 0){
 //     console.log("the number is even")
@@ -38,4 +58,3 @@ callback();
 // } else if (i % 1 !== 0){
 //     console.log("the number is odd")
 // }
-// return i;
