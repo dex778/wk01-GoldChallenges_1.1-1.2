@@ -9,11 +9,11 @@
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
 let favMovie = {
-    nameOfMovie:'Life is beautiful',
+    nameOfMovie:'Life is beautiful (La vita è bella)',
     runTime:'2 hours',
     characters:[
-        {name:'Guido', age:'52', items:['jokes', 'wit']},
-        {name: 'Giosue', age:'6', items:['charming', 'hat']}
+        {name:'Guido', age:'52', items:[{item1:'jokes'}, {item2: 'wit'}]},
+        {name: 'Giosue', age:'6', items:[{item1:'charming'}, {item2:'hat'}]}
     ],
     genre: 'Comedy Drama'
 }
