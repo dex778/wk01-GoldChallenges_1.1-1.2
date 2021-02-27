@@ -9,19 +9,19 @@
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 // let loop; 
-for (let i = 0; i <= 10; i++){
-    console.log(i);
-}
+// for (let i = 0; i <= 10; i++){
+//     console.log(i);
+// }
 
 function callback(num){
-    if (i % 2 === 0){
-        console.log("the number is even")
-    } else if (i % 1 !== 0){
-        console.log("the number is odd")
-    }
-    return i;
-
-    
+    for (let i = 0; i <= 10; i++){
+        // console.log(i);
+        if (i % 2 === 0 ){
+            console.log(i, "the number is even")
+        } else  {
+            console.log(i, "the number is odd")
+        }
+    }   
 }
 callback();
 
@@ -30,3 +30,10 @@ callback();
 // } else {
 //     console.log("the number is odd")
 // }
+
+// if (i % 2 === 0){
+//     console.log("the number is even")
+// } else if (i % 1 !== 0){
+//     console.log("the number is odd")
+// }
+// return i;
